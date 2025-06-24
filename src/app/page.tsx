@@ -1,10 +1,10 @@
 "use client";
 
-import { usePersistentState } from "../../hooks/usePersistentState";
-import { Todo } from "../../types/todo";
-import TodoForm from "../../components/todo-form";
-import TodoList from "../../components/todo-list";
-import SearchBox from "../../components/search-box";
+import { Todo } from "@/types/todo";
+import { usePersistentState } from "@/hooks/usePersistentState";
+import TodoForm from "@/components/todo-form";
+import TodoList from "@/components/todo-list";
+import SearchBox from "@/components/search-box";
 import { useState } from "react";
 
 export default function Home() {
